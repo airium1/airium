@@ -1,0 +1,365 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+html {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+body {
+    font-size: 15px;
+    font-family: Noto+Sans+KR;
+    color: #999;
+    line-height:25px;
+}
+
+
+#wrap {
+    min-width: 1360px;
+}
+
+/* header */
+#header {
+    width: 1320px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    width: 170px;
+    float: left; 
+    margin-top: 10px;
+
+}
+
+.gnb {position: absolute;
+    top: 25px;
+     left: 570px;
+}
+
+.gnb li{float: left;}
+
+.gnb li a{display: block;
+          font-size: 19px;
+        font-weight: bold;
+        color:#57A8BB;
+        padding: 10px 20px;
+        margin: 0 20px;}
+
+.gnb li:hover a{color: #3A6F7A;}
+
+.link {
+    float: right;
+    margin-top: 35px;
+}
+
+.link li {
+    float: left;
+}
+
+.link li a {
+    padding: 10px 0 10px 15px;
+    margin-left: 15px;
+    opacity: 40%;
+}
+
+.link li:hover a {
+    opacity: 100%;
+}
+
+
+/* section_1 */
+#section_1 {
+    height: 700px;
+    background: #e0eae3 url(../images/sub_1/eco_friendly.jpg) no-repeat top 100px right 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+#section_1 h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.inner_sec1 {
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.text_sec1{position: absolute;
+    left:0px;
+    top: 500px; 
+}
+
+.inner_sec1 h2 {
+    font-family: Bccard;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 60px;
+    color: #3A6F7A;
+}
+
+.inner_sec1 p {
+    font-size: 23px;
+    color: #819397;
+}
+
+/* section_2 */
+#section_2 {
+    width: 1320px;
+    height: 1050px;
+    margin: 100px auto;
+    padding: 70px;
+    background: #e8f1f5;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#section_2 h2 {
+    width: 210px;
+    float: left;
+    font-family: bccard;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #3A6F7A;
+
+}
+
+.inner_sec2 {
+    width: 900px;
+    float: right;
+}
+
+.inner_sec2 .air {
+    font-family: BCcard;
+    /* font-weight: bold; */
+    font-size: 35px;
+    color: #3A6F7A;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.inner_sec2 strong {
+    color: #57A8BB;
+}
+
+.inner_sec2 small {
+    font-size: 15px;
+}
+
+.philosophy {
+    width: 400px;
+    float: left;
+    margin-top: 50px;
+}
+
+.solution {
+    width: 400px;
+    float: right;
+    margin-top: 130px;
+}
+
+#section_2 h3 {
+    font-size: 18px;
+    padding: 30px 0 20px;
+}
+
+
+/* scetion_3 */
+#section_3 {
+    height: 730px;
+    background: url(../images/sub_1/value_L.jpg) no-repeat center fixed;
+    background-size: 100%;
+    overflow: hidden;
+    color: #fff;
+}
+
+#section_3 .squair {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 73, 74, 0.5);
+    z-index: 9;
+}
+
+.inner_sec3 {
+    width: 1320px;
+    height: 730px;
+    margin: 0 auto;
+    z-index: 99;
+    padding-top: 100px;
+}
+
+.inner_sec3 h2 {
+    font-family: bccard;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.inner_sec3 h3 { 
+    font-family: 'BCcard';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.inner_sec3 p {
+                font-size: 19px;
+                line-height: 1.5em;
+                letter-spacing: -1px;
+                text-align: center;
+                padding-bottom: 10px;
+
+}
+
+.inner_sec3 .value{
+                    float: left;
+                    padding:30px 0 0 250px;
+                    font-weight: 600;
+}
+
+.inner_sec3 ul{float: right;
+    padding:30px 250px 0 0;
+}
+
+.inner_sec3 ul li {
+    float: left;
+}
+
+.inner_sec3 .purify{margin:0 70px;}                     
+
+
+.inner_sec3 ul li p{
+                    font-size: 15px;
+
+}
+
+/* section_4 */
+#section_4 {
+    height: 800px;
+    position: relative;
+}
+
+#section_4 h2{padding:100px 0 40px 300px ;
+              font-family: bccard;
+              font-weight: 400;
+              font-size: 40px;
+              line-height: 60px;
+              color: #3A6F7A;
+            }
+
+#section_4 iframe {
+    /* margin-top: 50px; */
+}
+
+.inner_sec4 {
+    width: 1360px;
+    height: 600px;
+    position: absolute;
+    right: 300px;
+    top:200px;
+    z-index: 9;}
+
+#section_4 .squair {
+    width: 400px;
+    height: 600px;
+    background-color: rgba(6, 67, 61, 0.7);
+float: right;
+padding: 180px 50px;
+box-sizing: border-box;
+}
+
+.inner_sec4 h3{font-size: 22px;
+               color: #fff;
+               text-align: center; }
+
+.inner_sec4 ul li{
+                  padding-top: 30px;
+                z-index: 99;}
+
+.inner_sec4 ul li p{padding-left: 60px;
+                    font-size: 18px;
+                     color: #fff
+                     ;}
+
+
+
+.place{background: url(../images/icon/map/place.png) no-repeat left top 40px;}
+
+.tel{background: url(../images/icon/map/tel.png) no-repeat left top 20px;}
+
+.email{background: url(../images/icon/map/email.png)no-repeat left top 20px;}
+
+
+
+/* footer */
+#footer {
+    width: 1320px;
+    margin: 80px auto;
+}
+
+.custom {
+    font-size: 16px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #999;
+    margin-bottom: 30px;
+}
+
+.escrow {
+    padding: 30px 0 20px;
+}
+
+.link_footer li {
+    float: left;
+    text-decoration: underline;
+    padding-right: 20px;
+    margin: 20px 20px 30px 0;
+}
+
+
+/* fixed icons */
+.top_btn {
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+}
+
+.bottom_btn {
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+}
+
+.mail {
+    position: fixed;
+    right: 20px;
+    bottom: 240px;
+}
+
+.location {
+    position: fixed;
+    right: 20px;
+    bottom: 170px;
+}

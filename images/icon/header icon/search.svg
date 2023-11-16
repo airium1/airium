@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.03" height="20.03" viewBox="0 0 20.03 20.03">
+  <g id="gnb-zoom" transform="translate(0 0)">
+    <path id="패스_28" data-name="패스 28" d="M98.92,91.09a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-1.5a8.49,8.49,0,1,0,6.013,2.487A8.5,8.5,0,0,0,98.92,89.59Z" transform="translate(-90.42 -89.59)"/>
+    <line id="선_19" data-name="선 19" x2="5.5" y2="5.5" transform="translate(14 14)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line id="선_20" data-name="선 20" x2="5.5" y2="5.5" transform="translate(14 14)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line id="선_21" data-name="선 21" x2="5.5" y2="5.5" transform="translate(14 14)" fill="#231815"/>
+  </g>
+</svg>
