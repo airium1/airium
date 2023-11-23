@@ -161,6 +161,9 @@ body {
     border-radius: 5px;
 }
 
+.select_o{color: #fff;
+        }
+
 #select,#select_2 {
     padding: 6px 10px;
     cursor: pointer;
