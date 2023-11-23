@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1360">
+    <title>Document</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/">
+
+    <!-- webfont -->
+    <link href="https://webfontworld.github.io/bccard/BCcard.css" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@600&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/sub_2_style.css">
+
+</head>
+
+<body>
+    <div id="wrap">
+
+        <!-- header -->
+        <div id="header">
+
+            <h1 class="logo"><a href="./index.html"><img src="./images/logo/logo_1106_2.png" alt="logo"></a></h1>
+
+            <ul class="gnb">
+                <li><a href="./sub_1.html">회사소개</a></li>
+                <li><a href="./sub_2.html">제품소개</a></li>
+            </ul>
+
+            <ul class="link">
+                <li><a href="javascript:return false;"><img src="./images/icon/header icon/login.svg" alt="login"></a></li>
+                <li><a href="javascript:return false;"><img src="./images/icon/header icon/basket.svg" alt="basket"></a></li>
+                <li><a href="javascript:return false;"><img src="./images/icon/header icon/search.svg" alt=""></a></li>
+            </ul>
+
+        </div>
+
+
+        <!-- section_1 -->
+        <div id="section_1">
+            <div class="inner_sec1">
+                <h1><img src="./images/sub_2/biophilic.jpg" alt=""></h1>
+                <div class="text_sec1">
+                    <h2>제품</h2>
+                    <p>신선한 공기를 재배하다.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- section_2 -->
+        <div id="section_2">
+
+            <!-- menu -->
+            <ul class="menu">
+                <li class="select_wrap">
+                    <div class="select_btn">
+                        <p id="select" class="select_o">선택하세요.</p>
+                        <span class="plus">
+                            <img src="./images/icon/sub2/key.png" alt="key">
+                        </span>
+                    </div>
+                    <div id="option">
+                        <p onclick="option1()"><a href="sub_2.html#section_2">바이오월</a></p>
+                        <p onclick="option2()"><a href="sub_2.html#section_3">스마트팜</a></p>
+                        <p onclick="option3()"><a href="sub_2.html#section_4">그린팟</a></p>
+                    </div>
+                </li>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                <!-- 제어구문 -->
+                <script>
+                    $("#option").hide();
+                    $("#select").click(function(){
+                        $("#option").toggle()
+                    });
+                    function option1(){
+                        document.getElementById('select').innerHTML = '바이오월'
+                        $("#option").hide()
+                    }
+                    function option2(){
+                        document.getElementById('select').innerHTML = '스마트팜'
+                        $("#option").hide()
+                    }
+                    function option3(){
+                        document.getElementById('select').innerHTML = '그린팟'
+                        $("#option").hide()
+                    }
+                    $(".select_btn").click(function(){
+                        $(this).children().children("img").toggleClass("turn")
+                    });
+                </script>           
+                <li class="select_wrap">
+                    <div class="select_btn">
+                        <p id="select_2" class="select_o">타입</p>
+                        <span class="plus">
+                            <img src="./images/icon/sub2/key.png" alt="key">
+                        </span>
+                    </div>
+                    <div id="option_2">
+                        <p onclick="option4()"><a href="sub_2.html#section_2">1500형</a></p>
+                        <p onclick="option5()"><a href="sub_2.html#section_2">1900형</a></p>
+                        <p onclick="option6()"><a href="sub_2.html#section_2">2300형</a></p>
+                    </div>
+                </li>
+                <script>
+                    $("#option_2").hide();
+                    $("#select_2").click(function(){
+                        $("#option_2").toggle()
+                    });
+                    function option4(){
+                        document.getElementById('select_2').innerHTML = '1500형'
+                        $("#option_2").hide()
+                    }
+                    function option5(){
+                        document.getElementById('select_2').innerHTML = '1900형'
+                        $("#option_2").hide()
+                    }
+                    function option6(){
+                        document.getElementById('select_2').innerHTML = '2300형'
+                        $("#option_2").hide()
+                    }
+                    $(".select_btn").click(function(){
+                        $(this).children().children("img").toggleClass("turn")
+                    });
+                </script>
+            </ul>
+            <!-- biowall -->
+            <ul class="biowall">
+                <li><a href="javascript:return false;"><img src="./images/sub_2/1500.jpg" alt="">
+                        <p>바이오월 1500</p>
+                    </a></li>
+                <li class="bio_space"><a href="javascript:return false;"><img src="./images/sub_2/1900.jpg" alt="">
+                        <p>바이오월 1900</p>
+                    </a></li>
+                <li><a href="javascript:return false;"><img src="./images/sub_2/2300.jpg" alt="">
+                        <p>바이오월 2300</p>
+                    </a></li>
+
+            </ul>
+        </div>
+    <!-- section_3 -->
+    <div id="section_3">
+        <div class="smartgarden_1">
+            <a href="javascript:return false;"> <img src="./images/sub_2/smart farm.jpg" alt=""></a>
+        </div>
+        <div class="smartgarden_2">
+            <a href="javascript:return false;"><img src="./images/sub_2/small.jpg" alt=""></a>
+        </div>
+    </div>
+
+
+    <!-- section_4 -->
+    <div id="section_4">
+            <div class="bug">
+                <img src="./images/sub_2/bug_sec2.jpg" alt="">
+            </div>
+            <div class="greenpot">
+                <a href="javascript:return false;">
+                    <img src="./images/sub_2/three pots.jpg" alt="">
+                </a>
+            </div>
+    </div>
+
+<!-- section_5 -->
+<div  id="section_5">
+    <div class="squair"></div>
+
+    <div class="inner_sec5">
+        <h3>airium service</h3>
+        <h2>에어리엄 유지관리 구독 서비스</h2>
+        <p>식물 전문가가 매월 1회 정기적으로 방문하여 식물 생육상태, 기기, 소모품 교체 등을 체계적으로 관리 해드립니다.
+           <br> 숲과 식물을 연구하는 전문가가 직접 케어하는 스페셜 서비스를 통해
+           <br> 식물의 싱그러운 에너지를 가득 채운 웰니스 공간을 경험하실 수 있습니다.</p>
+
+    </div>
+
+</div>
+
+<!-- footer -->
+    <div id="footer">
+        <p class="custom"><b>고객센터</b> : 051-123-4567~8 / <b>운영시간</b> : 월~금 10:00~18:00시 까지 (휴무:토,일 및 공휴일)/ <b>무통장입금
+                계좌</b> : 국민은행 110-24-1234-567 에어리엄
+        </p>
+
+        <p><b>COMPANY.</b> (주)에어리엄 <b>OWNER</b>. 홍길동 <b>BUSINESS LICENCE.</b> [4198765432] <b>E-COMMERCE PERMIT</b>.
+            2023-부산중구-1026 [사업자정보확인]
+            <b>TEL.</b> 051-1234-5678 <b>PERSONAL INFORMATION MANAGER.</b> 주식회사에어리엄(airium@gmail.com) <b>ADDRESS.</b>
+            48942 부산광역시 중구 중앙대로 29
+            CONTACT FOR MORE INFORMATION.COPYRIGHT © <b>에어리엄</b> ALL RIGHTS RESERVED.
+        </p>
+
+        <p class="escrow">고객님의 안전한 결제를 위해 저희 쇼핑몰에서 가입한 PG사의 구매안전 에스크로 서비스를 이용하실 수 있습니다.</p>
+
+        <h1><a href="#"><img src="./images/icon/footer/escrow_footer.svg" alt=""></a></h1>
+
+        <ul class="link_footer">
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./sub_1.html">ABOUT US</a></li>
+            <li><a href="javascript:return false;">AGREEMENT</a></li>
+            <li><a href="javascript:return false;">PRIVACY</a></li>
+            <li><a href="javascript:return false;">GUIDE</a></li>
+        </ul>
+
+    </div>
+
+
+    <!-- fixed icons -->
+    <a href="./sub_2.html#header" class="top_btn">
+        <img src="./images/icon/fixed icon/ico_top_g.svg" alt="button_btn">
+    </a>
+
+    <a href="sub_2.html#footer" class="bottom_btn">
+        <img src="./images/icon/fixed icon/ico_bottom_g.svg" alt="button_btn">
+    </a>
+    <a href="javascript:return false;" class="mail">
+        <img src="./images/icon/fixed icon/mail_g.svg" alt="mail_btn">
+    </a>
+
+    <a href="./sub_1.html#section_4" class="location">
+        <img src="./images/icon/fixed icon/location_g.svg" alt="location_btn">
+    </a>
+
+</div>
+
+</body>
+
+</html>
