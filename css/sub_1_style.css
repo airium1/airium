@@ -22,7 +22,7 @@ html {
 
 body {
     font-size: 15px;
-    font-family: Noto+Sans+KR;
+    font-family: 'Noto Sans KR', sans-serif;
     color: #999;
     line-height:25px;
 }
@@ -109,7 +109,7 @@ body {
 }
 
 .inner_sec1 h2 {
-    font-family: Bccard;
+    font-family: bccard;
     font-weight: 400;
     font-size: 45px;
     line-height: 60px;
@@ -124,12 +124,11 @@ body {
 /* section_2 */
 #section_2 {
     width: 1320px;
-    height: 1050px;
+    height: 1220px;
     margin: 100px auto;
     padding: 70px;
     background: #e8f1f5;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 #section_2 h2 {
@@ -154,7 +153,6 @@ body {
     font-size: 35px;
     color: #3A6F7A;
     padding: 20px 0;
-    box-sizing: border-box;
 }
 
 .inner_sec2 strong {
