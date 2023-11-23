@@ -1,0 +1,330 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+html {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #999;
+    line-height: 25px;
+}
+
+
+#wrap {
+    min-width: 1360px;
+}
+
+/* header */
+#header {
+    width: 1320px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    width: 170px;
+    float: left;
+    margin-top: 10px;
+
+}
+
+.gnb {
+    position: absolute;
+    top: 25px;
+    left: 570px;
+}
+
+.gnb li {
+    float: left;
+}
+
+.gnb li a {
+    display: block;
+    font-size: 19px;
+    font-weight: bold;
+    color: #57A8BB;
+    padding: 10px 20px;
+    margin: 0 20px;
+}
+
+.gnb li:hover a {
+    color: #3A6F7A;
+}
+
+.link {
+    float: right;
+    margin-top: 35px;
+}
+
+.link li {
+    float: left;
+}
+
+.link li a {
+    padding: 10px 0 10px 15px;
+    margin-left: 15px;
+    opacity: 40%;
+}
+
+.link li:hover a {
+    opacity: 100%;
+}
+
+
+/* section_1 */
+#section_1 {
+    height: 700px;
+    background: #e8f2f4;
+}
+
+.inner_sec1 {
+    width: 1320px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.inner_sec1 h1 {
+    width: 900px;
+    height: 500px;
+    float: right;
+    margin-top: 100px;
+}
+
+.text_sec1 {
+    float: left;
+    margin-top: 500px;
+}
+
+
+.inner_sec1 h2 {
+    font-family: bccard;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 60px;
+    color: #3A6F7A;
+}
+
+.inner_sec1 p {
+    font-size: 23px;
+    color: #819397;
+}
+
+
+
+
+/* section_2 */
+#section_2 {
+    width: 1320px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* menu */
+.menu {
+    float: right;
+}
+
+.menu li {
+    float: left;
+    width: 450px;
+    /* height: 80px; */
+    background: #3A6F7A;
+}
+
+.select_wrap {
+    width: 160px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.select_btn {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#select,#select_2 {
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.plus {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    z-index: -1;
+}
+
+.turn {
+    transform: rotate(180deg);
+    /* transition: transform 0.5s; */
+}
+
+#option,#option_2 {
+    position: absolute;
+    top: 33px;
+    left: 0;
+    border: 1px solid #ddd;
+    width: 100%;
+    z-index: 9;
+    box-sizing: border-box;
+    background-color: #efefef;
+}
+
+#option p,#option_2 p {
+    padding: 6px 10px;
+}
+
+#option p:hover,#option_2 p:hover {
+    background-color: #bcbcbc;
+}
+
+/* menu end */
+
+.biowall {
+    float: right;
+
+}
+
+.biowall li {
+    float: left;
+}
+
+.bio_space{margin: 0 75px;}
+
+/* scetion_3 */
+#section_3 {
+    clear: both;
+    width: 1320px;
+    height: 1050px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.smartgarden_1 {
+    width: 900px;
+    float: right;
+}
+
+.smartgarden_2 {
+    width: 500px;
+    position: absolute;
+    top: 600px;
+    right: 200px;
+}
+
+
+/* section_4 */
+#section_4 {
+    width: 1320px;
+    margin: 130px auto;
+    /* overflow: hidden; */
+}
+
+.bug {
+    width: 900px;
+    float: right;
+    margin-bottom: 100px;
+
+}
+
+/* section_5 */
+#section_5 {
+    height: 640px;
+    background: url(../images/sub_2/service.jpg) no-repeat center;
+    position: relative;
+}
+
+.squair{width: 100%;
+        height: 640px;
+        background-color: rgba(0, 52, 47, 0.6);
+
+    }
+
+    .inner_sec5 {
+        width: 1320px;
+        height: 640px;
+        position: absolute;
+        top: 300px;
+        left: 300px;
+        color: #fff;
+        text-align: center;
+    }
+    
+
+#section_5 h2 {
+    font-family: bccard;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+
+}
+
+
+/* footer */
+#footer {
+    width: 1320px;
+    margin: 80px auto;
+}
+
+.custom {
+    font-size: 16px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #999;
+    margin-bottom: 30px;
+}
+
+.escrow {
+    padding: 30px 0 20px;
+}
+
+.link_footer li {
+    float: left;
+    text-decoration: underline;
+    padding-right: 20px;
+    margin: 20px 20px 30px 0;
+}
+
+
+/* fixed icons */
+.top_btn {
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+}
+
+.bottom_btn {
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+}
+
+.mail {
+    position: fixed;
+    right: 20px;
+    bottom: 240px;
+}
+
+.location {
+    position: fixed;
+    right: 20px;
+    bottom: 170px;
+}

@@ -1,0 +1,340 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+html {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #999;
+    line-height:25px;
+}
+
+
+#wrap {
+    min-width: 1360px;
+}
+
+/* header */
+#header {
+    width: 1320px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    width: 170px;
+    float: left; 
+    margin-top: 10px;
+
+}
+
+.gnb {position: absolute;
+    top: 25px;
+     left: 570px;
+}
+
+.gnb li{float: left;}
+
+.gnb li a{display: block;
+          font-size: 19px;
+        font-weight: bold;
+        color:#57A8BB;
+        padding: 10px 20px;
+        margin: 0 20px;}
+
+.gnb li:hover a{color: #3A6F7A;}
+
+.link {
+    float: right;
+    margin-top: 35px;
+}
+
+.link li {
+    float: left;
+}
+
+.link li a {
+    padding: 10px 0 10px 15px;
+    margin-left: 15px;
+    opacity: 40%;
+}
+
+.link li:hover a {
+    opacity: 100%;
+}
+
+
+/* main banner */
+#main_slide {
+    height: 730px;
+    overflow: hidden;
+}
+
+#main_slide ul {
+    width: 5760px;
+    font-size: 0;
+}
+
+#main_slide ul li {
+    display: inline-block;
+}
+
+/* container */
+/* section_1_product */
+#sec_1 {
+    width: 1320px;
+    height: 660px;
+    margin: 130px auto;
+}
+
+.farm {
+    width: 650px;
+    height: 660px;
+    background: url(../images/main/product/smartGarden.jpg) no-repeat center;
+    border-radius: 30px;
+    box-sizing: border-box;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    padding-top: 440px;
+}
+
+#sec_1 h2 {
+    font-family: BCcard;
+    font-weight: bold;
+    color: #3A6F7A;
+    margin-bottom: 20px;
+}
+
+/* button-바로가기/문의하기 */
+#sec_1 ul {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#sec_1 ul li {
+    float: left;
+    border-radius: 20px;
+    
+}
+
+#sec_1 ul li a{  
+    display: block;  
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+#sec_1 .shortcut {
+    color: #3a6f7a;
+    border: 1px solid #3a6f7a;
+    background-color: #fff;
+
+}
+
+#sec_1 .inquire {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #3a6f7a;
+    margin-left: 50px;
+}
+
+#sec_1 .shortcut:hover a{
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #3a6f7a;
+
+}
+
+#sec_1 .inquire:hover a{ 
+    color: #3a6f7a;
+    border: 1px solid #3a6f7a;
+    background-color: #fff;}
+/* button-바로가기/문의하기-끝 */
+
+
+
+
+.right_sec_1 {
+    width: 650px;
+    height: 660px;
+    float: right;
+}
+
+.wall,
+.pot {
+    width: 650px;
+    height: 320px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 110px 40px 0 300px;
+}
+
+.wall {
+    background: url(../images/main/product/biowall.jpg) no-repeat;
+    margin-bottom: 20px;
+}
+
+.wall h3 {
+    color: #fff;
+    font-family: BCcard;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px
+}
+
+.pot {
+    background: url(../images/main/product/pot.jpg) no-repeat center;
+}
+
+.pot h3 {
+    color: #3a6f7a;
+    font-size: 20px;
+}
+
+
+
+
+
+/* scetion_2_method */
+#method_slide {
+    height: 620px;
+    overflow: hidden;
+    position: relative;
+}
+
+#method_slide ul {
+    width: 3840px;
+    font-size: 0;
+}
+
+#method_slide ul li {
+    display: inline-block;
+}
+
+#method_slide .slide_icon {
+    position: absolute;
+    left: 300px;
+    top: 400px;
+}
+
+/* section_3_youtube */
+#youtube {
+    width: 1320px;
+    margin: 130px auto;
+}
+
+/* section_4_event */
+#event {
+    width: 1320px;
+    height: 760px;
+    margin: 130px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+/* section_5_order */
+#order {
+    height: 730px;
+    background: url(../images/main/bottom.jpg) no-repeat center;
+}
+
+.inner_order {
+    width: 1320px;
+    height: 730px;
+    margin: 0 auto;
+    /* background: yellow; */
+}
+
+.inner_order h1 {
+    font-family: BCcard;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #fff;
+    padding: 250px 0 0 800px;
+}
+
+.inner_order p {
+    /* font-size: 15px; */
+    color: #fff;
+    margin:25px 0 30px 800px;
+}
+
+#order .inquire a{
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: #3a6f7a;
+    display: inline-block;
+    padding: 10px 35px;
+    margin-left: 800px;
+}
+
+#order .inquire a{}
+
+#order .inquire:hover a{ 
+    color: #3a6f7a;
+    border: 1px solid #3a6f7a;
+    background-color: #fff;}
+
+
+/* footer */
+#footer{width: 1320px;
+margin: 80px auto;}
+.custom{font-size: 16px;
+    padding-bottom: 10px;
+         border-bottom: 3px solid #999;
+        margin-bottom: 30px;}
+.escrow{padding: 30px 0 20px;}
+
+.link_footer li{float: left;
+    text-decoration: underline;
+    padding-right: 20px;                      
+    margin:20px 20px 30px 0;
+}
+
+/* fixed icons */
+.top_btn{
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+}
+.bottom_btn{
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+}
+.mail{
+    position: fixed;
+    right: 20px;
+    bottom: 240px;
+}
+.location{
+    position: fixed;
+    right: 20px;
+    bottom: 170px;
+}
+
+
